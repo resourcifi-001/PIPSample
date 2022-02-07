@@ -521,9 +521,8 @@ left:0;
 # 3D slider css start 
 --------------------------------------------------------------*/
 section#why-us {
-  background: url(../img/nature.jpg) no-repeat center bottom;
-  background-size: cover;
-  background-attachment: fixed;
+    background-size: cover;
+    padding: 13rem 0;
 }
 .poster-main {
   width: 1000px;
@@ -770,10 +769,11 @@ ol, ul { list-style: none; }
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 0px 0;
   overflow: hidden;
   z-index: 9999;
-  background: #006827;
+  height:100%;
+  
   position: relative;
 }
 
@@ -862,19 +862,11 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../../template/images/impact-slide-3.jpg") center center;
+  
   background-size: cover;
   position: relative;
-  padding: 80px 0;
-}
-.about:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.8);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+  padding: 13rem 0;
+      height: 100%;
 }
 .about .about-img {
   position: relative;
@@ -940,9 +932,7 @@ section {
   margin-bottom: 0;
 }
 @media (min-width: 1024px) {
-  .about {
-    background-attachment: fixed;
-  }
+
 }
 
 /*--------------------------------------------------------------
@@ -1122,9 +1112,9 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/bg.jpg) center center no-repeat;
-  background-size: cover;
-  position: relative;
+    background-size: cover;
+    position: relative;
+    padding: 16rem 0;
 }
 .events::before {
   content: "";
@@ -1141,10 +1131,11 @@ section {
 .events .container {
   position: relative;
 }
+#SlideSix .events {
+	padding: 4rem 0;
+}
 @media (min-width: 1024px) {
-  .events {
-    background-attachment: fixed;
-  }
+  
 }
 .events .events-carousel {
   background: rgba(255, 255, 255, 0.08);
@@ -1384,8 +1375,8 @@ h2.carousel-item__subtitle {
 # Chefs
 --------------------------------------------------------------*/
 section#chefs {
-  background:#fff url(../img/SBDT_IlustracionesAnimales_05.svg) no-repeat ;
   background-size: cover;
+  padding:13rem 0;
 }
 section#chefs .section-title {
   background: #006827;
